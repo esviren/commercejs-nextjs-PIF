@@ -76,7 +76,7 @@ Manual setup involves cloning the repo into your local environment, seeding the 
 
 ```bash
 # Clone the repository locally, optionally rename the repo, change into the directory
-git clone https://github.com/chec/commercejs-nextjs-demo-store.git chec-store 
+git clone https://github.com/esviren/commercejs-nextjs-PIF chec-store 
 # Change into the directory and install dependencies
 cd chec-store && yarn
 ```
