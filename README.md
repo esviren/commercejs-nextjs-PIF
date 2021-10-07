@@ -1,4 +1,4 @@
-# Demo Store with Commerce.js and Next.js 🛍️💳
+# Implementación de E-Commerce Con Commerce.js and Next.js 🛍️💳
 
 [![Netlify Status](https://img.shields.io/netlify/157bb2e2-611e-4bbd-9a59-c876f8c3c58a?style=for-the-badge)](https://app.netlify.com/sites/commercejs-demo-store/deploys)
 [![Stars](https://img.shields.io/github/stars/chec/commercejs-nextjs-demo-store?style=for-the-badge)](https://github.com/chec/commercejs-nextjs-demo-store)
