@@ -199,6 +199,7 @@ class Header extends Component {
               alt="Menu icon"
             />
             <Link href="/">
+              // area de logotipo
               <a>
                 <img
                   src="/images/commerce.svg"
