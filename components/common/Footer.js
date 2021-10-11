@@ -6,7 +6,7 @@ const Footer = () => (
       <div className="row">
         <div className="col-12 col-sm-6 col-md-4">
           <p className="font-family-secondary font-size-display1 mb-4">
-            Commerce.js
+            Barf Friends
           </p>
           <div className="d-flex font-color-medium mb-5 pb-3 pb-md-0 mb-md-0">
             <div className="pr-5">
@@ -16,7 +16,7 @@ const Footer = () => (
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Documentation
+                Documentación
               </a>
               <a
                 href="https://commercejs.com/features"
@@ -24,7 +24,7 @@ const Footer = () => (
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Features
+                Características
               </a>
             </div>
             <div>
@@ -34,7 +34,7 @@ const Footer = () => (
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                About
+                Nosostro
               </a>
               <a
                 href="http://slack.commercejs.com/"
@@ -42,14 +42,14 @@ const Footer = () => (
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Community
+                Comunidad
               </a>
             </div>
           </div>
         </div>
         <div className="col-12 col-sm-6 col-md-4">
           <p className="font-family-secondary font-size-display1 mb-4">
-            Follow us
+            Siguenos
           </p>
           <div className="d-flex font-color-medium mb-5 pb-3 pb-md-0 mb-md-0">
             <div className="pr-5">

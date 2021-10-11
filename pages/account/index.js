@@ -75,7 +75,7 @@ class CustomerAccountPage extends Component {
         this.setState({
           isError: true,
           message: [
-            'Opps, looks like an error occurred!'
+            'Opps, Mira Ha Ocurrido Un Error!'
           ],
         });
       });
@@ -87,23 +87,23 @@ class CustomerAccountPage extends Component {
   getFulfillmentStatus(status) {
     if (!status) {
       return (
-        <span className="badge badge-secondary">Processing</span>
+        <span className="badge badge-secondary">Prosesando</span>
       );
     }
     if (status === 'fulfilled') {
       return (
-        <span className="badge badge-primary">Fullfilled</span>
+        <span className="badge badge-primary">Completado</span>
       );
     }
 
     if (status === 'not_fulfilled') {
       return (
-        <span className="badge badge-secondary">Processing</span>
+        <span className="badge badge-secondary">Prosesando</span>
       );
     }
 
     return (
-      <span className="badge badge-secondary">Processing</span>
+      <span className="badge badge-secondary">Prosesando</span>
     );
   }
 
@@ -113,30 +113,30 @@ class CustomerAccountPage extends Component {
   getPaymentStatus(status) {
     if (!status) {
       return (
-        <span className="badge badge-secondary">Pending</span>
+        <span className="badge badge-secondary">Pendiente</span>
       );
     }
 
     if (status === 'not-paid') {
       return (
-        <span className="badge badge-warning">Not paid</span>
+        <span className="badge badge-warning">No Pagado</span>
       );
     }
 
     if (status === 'paid') {
       return (
-        <span className="badge badge-success">Paid</span>
+        <span className="badge badge-success">Pagado</span>
       );
     }
 
     if (status === 'refunded') {
       return (
-        <span className="badge badge-danger">Refunded</span>
+        <span className="badge badge-danger">Rechazado</span>
       );
     }
 
     return (
-      <span className="badge badge-secondary">Pending</span>
+      <span className="badge badge-secondary">Pendiente</span>
     );
   }
 
@@ -149,7 +149,7 @@ class CustomerAccountPage extends Component {
     if (!orders || !orders.length) {
       return (
         <div>
-          You havent placed an order yet!
+          Aun no has echo Pedidos!!!
         </div>
       );
     }
@@ -177,7 +177,7 @@ class CustomerAccountPage extends Component {
     if (!orders || !orders.length) {
       return (
         <div className="card text-center p-2">
-          <p>You haven&apos;t placed any orders yet!</p>
+          <p>Tu no has hecho Pedidos por el momento!</p>
         </div>
       );
     }
@@ -214,7 +214,7 @@ class CustomerAccountPage extends Component {
               <td>{ order.order_value.formatted_with_symbol }</td>
               <td>
                 <Link href={`account/${order.id}`}>
-                  <a>View order</a>
+                  <a>Ver Pedidos</a>
                 </Link>
               </td>
             </tr>
@@ -250,7 +250,7 @@ class CustomerAccountPage extends Component {
   render() {
 
     if (this.props.loading.customer) {
-      return <TemplatePage page={  { message: 'Loading...' }  } />
+      return <TemplatePage page={  { message: 'Cargando...' }  } />
     }
 
     // Displays message when the customer logs out.
@@ -276,7 +276,7 @@ class CustomerAccountPage extends Component {
             <div className="row mt-4">
               <div className="col-12">
                 <h2 className="font-size-header mb-4 pt-5 text-center">
-                  My account
+                  My Cuenta
                 </h2>
                 { this.renderAlert() }
               </div>
@@ -284,7 +284,7 @@ class CustomerAccountPage extends Component {
             <div className="row mt-5 pt-5">
               <div className="col-12 col-md-8 col-lg-8">
                 <div className="d-flex flex-row justify-content-between">
-                  <h5>Order history</h5>
+                  <h5>Historial de Pedidos</h5>
                   { this.customerSince() }
                 </div>
                 { this.renderOrdersTable() }
@@ -303,7 +303,7 @@ class CustomerAccountPage extends Component {
                     { email }
                   </a>
                   <h6>
-                    Shipping address
+                    Dirección De envío
                   </h6>
                   { this.renderShippingAddress() }
                 </div>

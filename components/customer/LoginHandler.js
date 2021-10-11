@@ -47,7 +47,7 @@ class LoginHandler extends Component {
         this.setState({
           loading: false,
           isError: true,
-          message: ['The login link has expired. Please try again.'],
+          message: ['El Link de login ha expirado. Por favor intentelo nuevamente.'],
         });
       });
   }
@@ -88,7 +88,7 @@ class LoginHandler extends Component {
           isError: false,
           email: '',
           message: [
-            'If that email address exists in our system, we\'ve just sent you a link to continue logging in!'
+            'Si el correo electronico existe en nuestro sistem, nosotros solo te enviaremos un link para logging in!'
           ]
         });
       })
@@ -135,7 +135,7 @@ class LoginHandler extends Component {
       <form>
         <label className="w-100 mb-4">
           <p className="mb-1 font-size-caption font-color-light text-left">
-            Email address
+            Correo Electrónico
           </p>
           <input
             name="email"
@@ -151,7 +151,7 @@ class LoginHandler extends Component {
           type="submit"
           onClick={this.loginCustomer}
         >
-          Get magic link
+          Obten Link Mágico
         </button>
       </form>
     );
