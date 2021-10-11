@@ -172,7 +172,7 @@ export default function SingleOrderPage() {
   return (
     <Root>
       <Head>
-        <title>{ data.customer_reference } | commerce</title>
+        <title>{ data.customer_reference } | Barf Friend</title>
       </Head>
       <div className="account-container">
           <div className="custom-container py-5 my-4 my-sm-5">
@@ -182,7 +182,7 @@ export default function SingleOrderPage() {
                 <div className="d-flex pb-4 breadcrumb-container">
                   <Link href="/account">
                     <a className="font-size-caption text-decoration-underline cursor-pointer font-color-black">
-                      Account
+                      Cuenta
                     </a>
                   </Link>
                   <img src="/icon/arrow-right.svg" className="w-16 mx-1" alt="Arrow icon"/>
@@ -208,9 +208,9 @@ export default function SingleOrderPage() {
                 <table className="table table-bordered">
                   <thead>
                     <tr>
-                      <th>Product</th>
-                      <th>Price</th>
-                      <th>Quantity</th>
+                      <th>Produco</th>
+                      <th>Precio</th>
+                      <th>Cantidad</th>
                       <th>Total</th>
                     </tr>
                   </thead>
@@ -240,7 +240,7 @@ export default function SingleOrderPage() {
                     </tr>
                     <tr>
                       <td colSpan="3" className="border-right-0">
-                        Shipping
+                        Envío
                       </td>
                       <td className="border-left-0 text-right">
                         { data.order.shipping.price.formatted_with_symbol}
@@ -248,7 +248,7 @@ export default function SingleOrderPage() {
                     </tr>
                     <tr>
                       <td colSpan="3" className="border-right-0">
-                        Tax
+                        Impuesto
                       </td>
                       <td className="border-left-0 text-right">
                         { data.order.tax.amount.formatted_with_symbol}

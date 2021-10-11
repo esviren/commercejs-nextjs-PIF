@@ -142,12 +142,12 @@ class Header extends Component {
         <div className="d-flex align-items-center">
           { customer && customer.firstname && (
             <span className="mr-2 font-weight-regular">
-              Hi, { customer.firstname }!
+              Hola, { customer.firstname }!
             </span>
           ) }
           <Link href="/account">
             <a className="font-color-black mx-2">
-              My account
+              Mi Cuenta
             </a>
           </Link>
           <button
@@ -155,7 +155,7 @@ class Header extends Component {
             type="button"
             onClick={this.handleLogout}
           >
-            Logout
+            Salir
           </button>
         </div>
       );

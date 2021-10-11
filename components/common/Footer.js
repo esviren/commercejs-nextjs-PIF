@@ -92,7 +92,7 @@ const Footer = () => (
         </div>
         <div className="col-12 col-md-4">
           <p className="font-family-secondary font-size-display1 mb-3">
-            Newsletter
+            Noticias & Novedades
           </p>
           <div className="position-relative">
             <input
@@ -120,21 +120,21 @@ const Footer = () => (
             </a>
             <p className="px-2 font-color-brand font-size-caption">-</p>
             <a
-              href="https://github.com/chec/commercejs-nextjs-demo-store"
+              href="https://github.com/esviren/commercejs-nextjs-PIF"
               className="font-color-brand font-size-caption text-uppercase text-center"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Clone in GitHub
+              CLnar en GitHub
             </a>
             <p className="px-2 font-color-brand font-size-caption">-</p>
             <a
-              href="https://github.com/chec/commercejs-nextjs-demo-store"
+              href="https://github.com/esviren/commercejs-nextjs-PIF"
               className="font-color-brand font-size-caption text-uppercase text-center"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Contribute
+              Aportes
             </a>
           </div>
           <div className="font-color-brand font-size-caption py-4 text-right">
@@ -144,7 +144,7 @@ const Footer = () => (
               target="_blank"
               rel="noopener noreferrer"
             >
-              &copy; { new Date().getFullYear() } Chec/Commerce.js.
+              &copy; { new Date().getFullYear() }  PIF Politécnico Gran Colombiano Commerce.js.
             </a>
           </div>
         </div>

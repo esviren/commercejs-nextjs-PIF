@@ -66,7 +66,7 @@ export default function Product() {
   return (
     <Root>
       <Head>
-        <title>{ product.name } | commerce</title>
+        <title>{ product.name } | Barf Friends</title>
       </Head>
 
       <div className="py-5 my-5">
@@ -102,7 +102,7 @@ export default function Product() {
             onClick={toggleShipping}
             className="d-flex cursor-pointer py-3 justify-content-between font-weight-medium"
           >
-            Shipping and returns
+            Envío y devoluciones
             <img src="/icon/plus.svg" />
           </div>
           <Collapse isOpened={showShipping}>
@@ -116,7 +116,7 @@ export default function Product() {
             onClick={toggleDetails}
             className="d-flex cursor-pointer py-3 justify-content-between font-weight-medium"
           >
-            Details
+            Detalles
             <img src="/icon/plus.svg" />
           </div>
           <Collapse isOpened={showDetails}>
@@ -132,10 +132,10 @@ export default function Product() {
       </div>
     </div>
 
-    <ClientReview />
+    {/* <ClientReview />  
     <SuggestedProducts />
     <ExploreBanner />
-    <SocialMedia />
+    <SocialMedia />*/}
     <Footer />
   </Root>
   );
