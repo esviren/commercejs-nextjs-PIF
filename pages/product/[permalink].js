@@ -17,7 +17,7 @@ import CategoryList from '../../components/products/CategoryList';
 import reduceProductImages from '../../lib/reduceProductImages';
 
 const detailView = `<p>
-  Slightly textured fabric with tonal geometric design and a bit of shine
+  Dieta Barf Para Mascotas de Diferentes pesos
 </p>`;
 
 export default function Product() {
@@ -107,8 +107,7 @@ export default function Product() {
           </div>
           <Collapse isOpened={showShipping}>
             <div className="pb-4 font-color-medium">
-              Arrives in 5 to 7 days, returns accepted within 30
-              days. For more information, click here.
+              Envio en 24-36 horas, Devoluciones solo con fecha de vencimiento anterior a la emision de factura.
             </div>
           </Collapse>
           <div className="h-1 border-bottom border-color-black" />

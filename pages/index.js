@@ -16,11 +16,12 @@ const Home = () => (
     </Head>
 
     <HeroSection />
-    <HomeBanner />
+    {/* <HomeBanner />
     <CategoryBanner />
     <ProductsBanner />
     <ExploreBanner />
-    <SocialMedia />
+    <SocialMedia /> */}
+    <ProductsBanner />
     <Footer />
   </Root>
 );
