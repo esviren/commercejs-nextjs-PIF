@@ -672,9 +672,9 @@ class CheckoutPage extends Component {
                       </div>
                       <label className="w-100 mb-3">
                         <p className="mb-1 font-size-caption font-color-light">
-                          Numero Celular o Whats app para confirmar el pedido 
+                          Numero Celular o Whats app para confirmar el pedido ()
                         </p>
-                        <textarea name="orderNotes" value={this.state.orderNotes} className="rounded-0 w-100" />
+                        <input name="orderNotes" value={this.state.orderNotes} className="rounded-0 w-100" />
                       </label>
                     </div>
 
