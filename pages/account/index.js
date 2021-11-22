@@ -56,7 +56,7 @@ class CustomerAccountPage extends Component {
       return null;
     }
     return (
-      <small><strong>Customer since:</strong> { this.formatDate(this.props.customer.created) }</small>
+      <small><strong>Activo desde:</strong> { this.formatDate(this.props.customer.created) }</small>
     );
   }
 
@@ -186,11 +186,11 @@ class CustomerAccountPage extends Component {
       <table className="table table-bordered">
       <thead>
         <tr>
-          <th>Order</th>
-          <th>Payment</th>
+          <th>Oeden</th>
+          <th>Pago</th>
           <th>Fulfillment</th>
           <th>Total</th>
-          <th>Actions</th>
+          <th>Acciones</th>
         </tr>
       </thead>
       <tbody>
@@ -269,14 +269,14 @@ class CustomerAccountPage extends Component {
     return (
       <Root>
         <Head>
-          <title>Account</title>
+          <title>Cuenta</title>
         </Head>
         <div className="account-container">
           <div className="custom-container py-5 my-4 my-sm-5">
             <div className="row mt-4">
               <div className="col-12">
                 <h2 className="font-size-header mb-4 pt-5 text-center">
-                  My Cuenta
+                  Mi Cuenta
                 </h2>
                 { this.renderAlert() }
               </div>

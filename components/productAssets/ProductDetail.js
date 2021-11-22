@@ -149,10 +149,10 @@ class ProductDetail extends Component {
 
         {/* Add to Cart & Price */}
         <div className="d-flex py-4">
-          <button onClick={this.handleAddToCart} disabled={soldOut}
+          <button  onClick={this.handleAddToCart} disabled={soldOut}
               className="h-56 bg-black font-color-white pl-3 pr-4 d-flex align-items-center flex-grow-1" type="button">
             <span className="flex-grow-1 mr-3 text-center">
-              { soldOut ? 'Sold out' : 'Add to cart' }
+              { soldOut ? 'Agotado' : 'Agregar A Carrito' }
             </span>
             <span className="border-left border-color-white pl-3">
             {priceSymbol}{this.getPrice()}

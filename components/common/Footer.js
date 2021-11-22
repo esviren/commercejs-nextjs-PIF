@@ -116,7 +116,7 @@ const Footer = () => (
               target="_blank"
               rel="noopener noreferrer"
             >
-              Deploy to Netlify
+              Desplegado En Netlify
             </a>
             <p className="px-2 font-color-brand font-size-caption">-</p>
             <a
@@ -125,7 +125,7 @@ const Footer = () => (
               target="_blank"
               rel="noopener noreferrer"
             >
-              CLnar en GitHub
+              Clonar en GitHub
             </a>
             <p className="px-2 font-color-brand font-size-caption">-</p>
             <a
