@@ -88,7 +88,7 @@ class LoginHandler extends Component {
           isError: false,
           email: '',
           message: [
-            'Si el correo electronico existe en nuestro sistem, nosotros solo te enviaremos un link para logging in!'
+            'Si el correo electronico existe en nuestro sistem, nosotros solo te enviaremos un link para ingresar!'
           ]
         });
       })
