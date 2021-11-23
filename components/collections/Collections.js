@@ -58,7 +58,7 @@ class Collections extends Component {
                   <a className="mb-5 font-color-black">
                     <div className="d-flex">
                       <p className="mb-2 position-relative cursor-pointer">
-                        Products
+                        Productos
                         <span
                           className="position-absolute font-size-tiny text-right"
                           style={{ right: '-12px', top: '-4px' }}
@@ -128,7 +128,7 @@ class Collections extends Component {
     return (
       <div className="py-5 my-5">
         <Head>
-          <title>Collections</title>
+          <title>Coloecciones</title>
         </Head>
         <div className="py-4">
           {/* Sidebar */}
