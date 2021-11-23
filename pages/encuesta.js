@@ -77,6 +77,7 @@ function EncuestaForm() {
             console.log("id "+pregunta_1);
             
             document.getElementById("respuesta1").innerHTML = datos.get('encuesta_'+index);
+            document.getElementById("respuesta1").innerHTML = datos.get('encuesta_'+index);
             //const element = array[index];
             
         }
@@ -126,9 +127,9 @@ function EncuestaForm() {
                             Encuesta dieta BARF
                         </h2>
                         <h4 className="font-size-subheader mb-4">
-                            Acontinuacion Encueta de estudio de viavilidad para venta y distribuciión de dieta BARF<a href="https://commercejs.com/" target="_blank" className="cjs-link" rel="noopener noreferrer">commercejs.com</a>.
+                            Acontinuacion Encueta de estudio de viavilidad para venta y distribuciión de dieta BARF.
                         </h4>
-
+{/*
                         <form class="form" onSubmit={registrarEncuesta}>
 
                             <label class="my-1 mr-2" for="pregunta1">¿Tipo de mascota que tienes?  </label>
@@ -248,7 +249,7 @@ function EncuestaForm() {
                             <button type="submit" class="btn btn-primary my-1">Enviar</button>
                         </form>
                         
-
+*/}
                     </div>
                 </div>
 
