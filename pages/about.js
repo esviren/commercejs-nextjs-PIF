@@ -19,7 +19,7 @@ const About = () => (
               <h4 className="font-size-subheader mb-4">
                 Acontinuacion Encueta de estudio de viavilidad para venta y distribuciión de dieta BARF.
               </h4>
-              
+              {/*
               <form class="form" method="post">
                 
                 <label class="my-1 mr-2" for="pregunta1">¿Tipo de mascota que tienes?  </label>
@@ -142,7 +142,7 @@ const About = () => (
 
                 <button type="submit" class="btn btn-primary my-1">Enviar</button>
               </form>
-
+*/}
               <div className="about-cjs mt-3 d-flex flex-row">
                 <a className="px-4 py-3 font-color-white about-doc" href="https://commercejs.com/docs/" target="_blank" rel="noopener noreferrer">
                   Documentación
@@ -157,7 +157,8 @@ const About = () => (
         <div className="col-12 col-lg-6">
           <div className="about-image h-100">
             <div className="d-flex align-items-center justify-content-center h-100">
-              <img src="/cjs-illustration.svg" alt="Commerce.js illustration"/>
+              {/*<img src="/cjs-illustration.svg" alt="Commerce.js illustration"/> */}
+              
             </div>
           </div>
         </div>
